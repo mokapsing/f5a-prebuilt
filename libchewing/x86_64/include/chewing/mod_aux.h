@@ -18,11 +18,7 @@
  *  \author libchewing Core Team
  */
 
-#ifdef WITH_RUST
-#   include "chewing_rs.h"
-#else
-#   include "global.h"
-#endif
+#include "global.h"
 
 /**
  * @brief Chewing the state for input context during commit process
