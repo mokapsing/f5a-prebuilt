@@ -12,8 +12,8 @@ set_target_properties(Boost::iostreams PROPERTIES
   IMPORTED_LOCATION_RELEASE "${_IMPORT_PREFIX}/lib/libboost_iostreams.a"
   )
 
-list(APPEND _cmake_import_check_targets Boost::iostreams )
-list(APPEND _cmake_import_check_files_for_Boost::iostreams "${_IMPORT_PREFIX}/lib/libboost_iostreams.a" )
+list(APPEND _IMPORT_CHECK_TARGETS Boost::iostreams )
+list(APPEND _IMPORT_CHECK_FILES_FOR_Boost::iostreams "${_IMPORT_PREFIX}/lib/libboost_iostreams.a" )
 
 # Commands beyond this point should not need to know the version.
 set(CMAKE_IMPORT_FILE_VERSION)
